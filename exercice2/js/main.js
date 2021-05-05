@@ -1,11 +1,4 @@
-$(document).ready(function() {
-	// tout le reste du code viendra ici
-  console.log("salut jquery");
-});
-
-$(function(){
-    $("button").hover(function (){
-        $("#notice").hide("3000");
-        $('input[name="password"]').focus();
-    });
+$("#exercise").hover(function(){
+  $("#square").css("height", "500px");
+  $("#square").css("width", "500px");
 });
