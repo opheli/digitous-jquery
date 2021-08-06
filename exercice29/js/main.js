@@ -1,6 +1,7 @@
 $(document).ready(function () {
-  $(".btn").click(function() {
-    if($("input").val().length > 5) {
+
+  $(".btn").click(function () {
+    if ($("input").val().length > 5) {
       $("input").removeClass("is-invalid");
       $("input").addClass("is-valid");
     } else {
@@ -8,4 +9,5 @@ $(document).ready(function () {
       $("input").addClass("is-invalid");
     }
   });
+
 });

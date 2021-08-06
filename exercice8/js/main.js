@@ -1,5 +1,10 @@
-$(function(){
-    $("button").click(function(){
-        displaySecretText();
-    })
+$(document).ready(function () {
+
+    $(function () {
+        $("button").click(function () {
+            displaySecretText();
+        })
+    });
+
 });
+

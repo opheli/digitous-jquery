@@ -1,10 +1,9 @@
-// $(document).ready(function() {
-// 	// tout le reste du code viendra ici
-//   console.log("salut jquery");
-// });
+$(document).ready(function () {
 
+    $("#exercise").hover(function () {
+        $("#square").css("background", "red");
+    });
 
-
-$("#exercise").hover(function(){
-    $("#square").css("background", "red");
 });
+
+

@@ -1,6 +1,14 @@
-$("button").click(function () {
-    $("#square").animate({
-        left: '+=950px',
-        bottom: '-=100px'
+$(document).ready(function () {
+
+    $("button").click(function () {
+        $("#square").animate({
+            left: '+=950px',
+            bottom: '-=100px'
+        });
     });
+
 });
+
+
+
+
